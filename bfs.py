@@ -1,5 +1,5 @@
 from collections import deque
-from movimento import gerar_sucessores
+from opera import gerar_sucessores
 
 def bfs(inicial, objetivo):
     fila = deque([(inicial, [inicial])]) 
